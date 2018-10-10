@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        h3{
+            text-decoration: underline;
+        }
+        [data-vegetal]{
+            color: green;
+        }
+        [data-animal]{
+            color: brown;
+        }
+    </style>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="ingredientes">
+        <h3>Ingredientes para 4 personas</h3>
+        <ul>
+            <li data-vegetal>2 calabacines</li>
+            <li data-vegetal>1/2 pimiento rojo</li>
+            <li data-vegetal>2 cebolletas</li>
+            <li data-vegetal>2 dientes de ajo</li>
+            <li data-animal>150g de carne picada de ternera</li>
+            <li data-animal>75g de queso rallado</li>
+            <li data-animal>3 huevos</li>
+            <li data-vegetal>harina</li>
+            <li data-vegetal>pan rallado</li>
+            <li data-vegetal>aceite de oliva</li>
+            <li data-vegetal>perejil</li>
+            <li data-vegetal>orégano</li>
+            <li>sal</li>
+            <li>pimienta</li>
+        </ul>
+
+    </div>
+    <div class="elaboración">
+        <h3>Preparación</h3>
+        <p>Retira las puntas de los calabacines, córtalos por la mitad a lo largo y después por la mitad a lo ancho, de manera que de cada calabacín salgan 4 trozos. Vacíalos (dejándolos como si fueran unas barcas) con ayuda de una cuchara saca bolas. Pica la pulpa de los calabacines y resérvala. Reserva también las barcas.
+
+                Pela y pica los ajos y las cebolletas finamente y ponlos a rehogar en una sartén con aceite. Pela el pimiento, córtalo de la misma manera y agrégalo a la sartén. Sazona. Añade también la carne del calabacín. Rehoga todo bien.
+                
+                Salpimienta la carne picada y añádela a la sartén, cocínala y añade el orégano. Mezcla bien todo. Reserva el relleno.
+                
+                Coloca los calabacines en un bol grande. Añade la harina y remueve el bol de manera que los calabacines queden bien impregnados con la harina. Retírales el exceso de harina. En otro bol, bate los huevos con una pizca de sal. Introduce los calabacines y empápalos bien. Retira, escurre y pásalos por el pan rallado. Fríelos en una sartén con aceite y escúrrelos sobre un plato cubierto con papel absorbente.
+                
+                Rellena los calabacines y colócalos en una fuente apta para horno. Cúbrelos con el queso rallado y gratínalos en el horno. Sirve 2 trozos por ración y decóralos con unas hojas de perejil.</p>
+        <div>
+            <img src="https://www.hogarmania.com/archivos/201810/calabacines-rellenos-vertical-XxXx80.jpg" alt="Calabacines rellenos" width="500px"> 
+        </div>
+    </div>
+    <div class="comentarios">
+        <h3>Comentarios</h3>
+        <form action="data.php" method="post">
+            <label for="comentarios">Puede enviar comentarios o preguntas aquí:</label><br>
+            <textarea name="comentarios" id="comentarios" cols="100" rows="5"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
